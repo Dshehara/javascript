@@ -10,3 +10,9 @@ body{
 .labels{
     font-size: 3em;
 }
+.label{
+    padding: 20px;
+    margin: 20px 80px;
+    
+    
+}

@@ -1,7 +1,7 @@
 const myButton = document.getElementById("myButton");
-const myLabel1 = document.getElementById("myLabel1");
-const myLabel2 = document.getElementById("myLabel2");
-const myLabel3 = document.getElementById("myLabel3");
+const label1 = document.getElementById("myLabel1");
+const label2 = document.getElementById("myLabel2");
+const label3 = document.getElementById("myLabel3");
 const max = 6;
 const min = 1;
 let randomNum1;
@@ -13,7 +13,7 @@ myButton.onclick = function(){
     randomNum1 = Math.floor(Math.random()*max) + min;
     randomNum2 = Math.floor(Math.random()*max) + min;
     randomNum3 = Math.floor(Math.random()*max) + min;
-    myLabel1.textContent = randomNum1;
-    myLabel2.textContent = randomNum2;
-    myLabel3.textContent = randomNum3;
+    label1.textContent = `1 got : ${randomNum1}`;
+    label2.textContent = `2 got : ${randomNum2}`;
+    label3.textContent = `3 got : ${randomNum3}`;
 }
